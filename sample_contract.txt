@@ -1,0 +1,21 @@
+MUTUAL SERVICES AGREEMENT
+
+This Mutual Services Agreement (the "Agreement") is entered into as of October 12, 2026 (the "Effective Date"), by and between Acme Corp ("Client") and Delta Services LLC ("Provider").
+
+1. SERVICES AND COMPENSATION
+Provider shall perform the software integration and consulting services described in Exhibit A. Client shall pay Provider $15,000 per month for the duration of this Agreement.
+
+2. CONFIDENTIALITY
+Each party agrees to hold the other party's Confidential Information in strict confidence. Confidential Information shall not include information that is (a) publicly known, (b) already in the receiving party's possession, or (c) independently developed without reference to the disclosing party's information. The obligations of confidentiality under this Section 2 shall survive indefinitely and shall remain in effect forever.
+
+3. INDEMNIFICATION (HIGH RISK)
+Client agrees to defend, indemnify, and hold harmless Provider, its affiliates, directors, officers, employees, and agents from and against any and all claims, liabilities, losses, damages, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to this Agreement, including any breach of contract, negligence, or willful misconduct by Client, its employees, or agents. Client's indemnification obligations under this section shall be absolute, uncapped, and shall cover any indirect, incidental, or consequential damages. Provider shall have no reciprocal obligation to indemnify Client under any circumstances.
+
+4. LIMITATION OF LIABILITY (HIGH RISK)
+IN NO EVENT SHALL PROVIDER BE LIABLE TO CLIENT FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, LOSS OF REVENUE, OR LOSS OF DATA, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT. PROVIDER'S TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS OF ANY KIND ARISING UNDER OR RELATED TO THIS AGREEMENT, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, SHALL BE LIMITED TO THE AMOUNT OF ONE HUNDRED DOLLARS ($100.00).
+
+5. TERM AND TERMINATION (MEDIUM RISK)
+This Agreement shall commence on the Effective Date and remain in effect for a period of one (1) year. Either party may terminate this Agreement for convenience at any time upon giving the other party ten (10) days prior written notice. However, if Client terminates for convenience, Client must pay a termination fee equal to three (3) months of service fees ($45,000) within five business days of termination. Either party may terminate this Agreement for cause if the other party breaches a material term and fails to cure such breach within thirty (30) days of receiving written notice.
+
+6. GOVERNING LAW AND VENUE (LOW RISK)
+This Agreement, and all claims or causes of action arising hereunder, shall be governed by, and construed in accordance with, the laws of the State of Delaware, without regard to its conflict of laws principles. Any legal suit, action, or proceeding arising out of or relating to this Agreement shall be instituted solely in the state and federal courts located in Wilmington, Delaware. Each party hereby irrevocably submits to the exclusive jurisdiction of such courts.

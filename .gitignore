@@ -1,0 +1,38 @@
+# Python virtual environment — never push this (very large, platform-specific)
+.venv/
+venv/
+env/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+
+# Temporary upload files
+*.tmp
+*.temp
+
+# Environment variables file (if you ever add secrets)
+.env
+.env.local
+
+# ngrok / cloudflared binaries (no need to push)
+cloudflared.exe
+ngrok.exe
+ngrok
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
