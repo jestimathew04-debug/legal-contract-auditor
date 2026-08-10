@@ -1,0 +1,136 @@
+/* Custom stylesheet for LEXAUDIT Redesign */
+
+/* Base font adjustments */
+body {
+    background-color: #050505;
+    color: #FAFAFA;
+}
+
+/* Custom Scrollbar for sleek dark mode */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #09090B;
+}
+::-webkit-scrollbar-thumb {
+    background: #27272A;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #DC2626;
+}
+
+/* Glassmorphism card borders and shadow glow */
+.bg-brand-card {
+    background-color: #0C0C0E;
+    border: 1px solid #1F1F23;
+}
+
+.shadow-red-glow {
+    box-shadow: 0 0 15px -3px rgba(220, 38, 38, 0.15);
+}
+
+.shadow-red-glow:hover {
+    box-shadow: 0 0 20px -1px rgba(220, 38, 38, 0.25);
+    border-color: rgba(220, 38, 38, 0.4);
+}
+
+/* Document Viewer Highlight Styles */
+.clause-highlight {
+    padding: 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-bottom: 2px solid transparent;
+    display: inline;
+}
+
+.clause-highlight.hl-high {
+    background-color: rgba(239, 68, 68, 0.12); /* Crimson opacity */
+    border-bottom-color: rgba(239, 68, 68, 0.6);
+    color: #FCA5A5;
+}
+.clause-highlight.hl-high:hover {
+    background-color: rgba(239, 68, 68, 0.28);
+}
+
+.clause-highlight.hl-medium {
+    background-color: rgba(245, 158, 11, 0.12); /* Amber opacity */
+    border-bottom-color: rgba(245, 158, 11, 0.6);
+    color: #FDE68A;
+}
+.clause-highlight.hl-medium:hover {
+    background-color: rgba(245, 158, 11, 0.28);
+}
+
+.clause-highlight.hl-low {
+    background-color: rgba(16, 185, 129, 0.1); /* Emerald opacity */
+    border-bottom-color: rgba(16, 185, 129, 0.55);
+    color: #A7F3D0;
+}
+.clause-highlight.hl-low:hover {
+    background-color: rgba(16, 185, 129, 0.22);
+}
+
+/* Active Highlight state when clicked from the audit sidebar */
+.clause-highlight.hl-active {
+    background-color: rgba(239, 68, 68, 0.38) !important;
+    color: #FFFFFF !important;
+    border-bottom-color: #EF4444 !important;
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+    transform: scale(1.02);
+}
+
+/* Collapsible Drawer Animations */
+#audit-drawer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#audit-drawer.open {
+    max-height: 6000px; /* High max-height limit to fit all audit cards grid dynamically */
+}
+
+/* Print layout optimizations for PDF exports */
+@media print {
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    header, footer, #upload-zone, #btn-sample, .filter-tab, #btn-export-json, #btn-export-pdf, #audit-toggle-bar, #btn-reanalyze, #btn-clear {
+        display: none !important;
+    }
+    main {
+        display: block !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+    #audit-drawer {
+        max-height: none !important;
+        display: block !important;
+        overflow: visible !important;
+    }
+    #doc-viewer {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        overflow: visible !important;
+        white-space: pre-wrap !important;
+        background: transparent !important;
+        color: #111 !important;
+        border: 1px solid #ccc;
+    }
+    .clause-highlight {
+        background: rgba(0,0,0,0.05) !important;
+        border-bottom: 2.5px solid #222 !important;
+        color: black !important;
+    }
+    .bg-brand-card {
+        background: white !important;
+        border: 1px solid #ddd !important;
+        color: black !important;
+    }
+}
